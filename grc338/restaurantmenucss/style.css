@@ -1,0 +1,25 @@
+/* CSS DOCUMENT*/
+body {
+background-color: rgb(224,224,224);
+}
+h1 {
+color: rgb(0,51,102);
+font-size: 4em;
+font-family: serif;
+}
+h2 {
+color: rgb(0,76,153);
+font-size: 3em;
+}
+h3 {
+color: rgb(0,102,204);
+font-size: 2em;
+}
+h4 {
+color: rgb(0, 128, 255);
+font-size: 1em;
+}
+ul {
+list-style: none;
+font-family: sans-serif;
+}
