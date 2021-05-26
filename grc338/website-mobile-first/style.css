@@ -1,28 +1,49 @@
 /*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/tid6sls.css");
+
 img {
-    width: 15%; 
+    width: 100%; 
 }
 body {
     background-color:rgb(245, 243, 243);
  }
-h1 {
+
+ figure {
+     margin: 1.5em 0;
+ }
+ h1 {
+     width: 15%;
+ }
+ h2 {
     color: rgb(69, 111, 86);
     font-size: 3.5em;
     margin-bottom: 0;
     margin-top: 0;
  }
- h2 {
+ h3 {
     color: rgb(115, 88, 57);
-    font-size: 2.5em;
-    margin-top: 1em;
-    font-style: italic;
+    font-size: 3em;
+    margin-top: 0.5em;
     margin-bottom: 0;
-}
-h3 {
-    font-family: sans-serif;
+    font-style: italic;
 }
 h4 {
+    font-family: sofia-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+h5 {
     color: rgb(69, 111, 86);
+    font-size: 2em;
+    margin-bottom: 0;
+}
+li {
+    line-height: 1.7em;
+    list-style-type: none;
 }
 nav ul {
     padding: 0;
@@ -30,16 +51,138 @@ nav ul {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    font-family: sans-serif;
-    font-size: 1em;
+    font-family: sofia-pro, sans-serif;
+    font-size: 1.5em;
     letter-spacing: 0.05em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
 }
 nav ul li a {
     color: rgb(9, 40, 18);
+    text-decoration: none;
 }
 nav ul li a:hover {
     color:rgb(69, 111, 86);
  }
 p {
-    font-family: sans-serif;
+    font-family: sofia-pro, sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
 }
+ul h5, ul p {
+    margin: 0.5em 0;
+}
+ul li {
+    margin-bottom: 2.5em;
+}
+
+
+/* Sofia Pro Bold
+
+font-family: sofia-pro, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Sofia Pro Bold italic
+
+font-family: sofia-pro, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Sofia Pro Regular
+
+font-family: sofia-pro, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Sofia Pro Regular italic
+
+font-family: sofia-pro, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Sofia Pro Soft Bold
+
+font-family: sofia-pro-soft, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Sofia Pro Soft Bold Italic
+
+font-family: sofia-pro-soft, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Sofia Pro Soft Regular
+
+font-family: sofia-pro-soft, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Sofia Pro Soft Regular Italic
+
+font-family: sofia-pro-soft, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Sofia Pro Condensed Bold
+
+font-family: sofia-pro-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Sofia Pro Condensed Bold italic
+
+font-family: sofia-pro-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Sofia Pro Condensed Regular
+
+font-family: sofia-pro-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Sofia Pro Condensed Regular italic
+
+font-family: sofia-pro-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+ */
+
+
